@@ -1,0 +1,42 @@
+{
+  "Records": [
+    {
+      "dynamodb": {
+        "NewImage": {
+          "PublishDate": {
+            "S": "2022-04-16T00:24:38+00:00"
+          },
+          "ArchitectureURL": {
+            "S": "https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/images/pattern-img/f4fc3ad2-1c4f-45ea-bc86-2db13105a173/images/e0cfff30-f0f8-4fc1-8e84-a152ef615c58.png"
+          },
+          "Metadata": {
+            "M": {
+              "Rekognition": {
+                "M": {
+                  "textServices": {
+                    "S": "Amazon Simple, AWS Lambda, Amazon Pinpoint, Amazon Kinesis, Amazon Athena, AWS Glue"
+                  },
+                  "textMetadata": {
+                    "S": "email, 1, Email Service, omni-channel engagement, SMS, Data, analyst, Data Firehose, Storage Service, push, voice, user, Data Catalog, Simple, Email, Service, Lambda, omni-channel, engagement, Pinpoint, Kinesis, Athena, Firehose, Storage, Glue, Catalog"
+                  },
+                  "labels": {
+                    "S": "lambda, s3, kinesis_firehose"
+                  }
+                }
+              },
+              "crawler": {
+                "S": "Digital User Engagement Events Database | AWS Solutions"
+              }
+            }
+          },
+          "OriginURL": {
+            "S": "https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/deploy-and-manage-a-serverless-data-lake-on-the-aws-cloud-by-using-infrastructure-as-code.html?did=pg_card&trk=pg_card"
+          },
+          "Title": {
+            "S": "Deploy and manage a serverless data lake on the AWS Cloud by using infrastructure as code - AWS Prescriptive Guidance"
+          }
+        }
+      }
+    }
+  ]
+}
